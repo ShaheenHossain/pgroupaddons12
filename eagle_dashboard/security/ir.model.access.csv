@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_eagle_dashboard_board,eagle_dashboard.board,model_eagle_dashboard_board,,1,1,1,1
+access_eagle_dashboard_item,eagle_dashboard.item,model_eagle_dashboard_item,,1,1,1,1
+access_eagle_dashboard_board_template,eagle_dashboard.board_template,model_eagle_dashboard_board_template,,1,1,1,1
+access_eagle_dashboard_item_goal,eagle_dashboard_item_goal,model_eagle_dashboard_item_goal,,1,1,1,1
+access_eagle_dashboard_item_action,eagle_dashboard_item_action,model_eagle_dashboard_item_action,,1,1,1,1

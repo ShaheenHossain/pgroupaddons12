@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eagle>
+    <template id="assets_backend" name="Ks MyDashboard assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard.scss"/>
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_item.css"/>
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_icon_container_modal.css"/>
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_item_theme.css"/>
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_toggle_icon.css"/>
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_options.css"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_global_functions.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_dashboard.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_color_picker.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_dashboard_item_preview.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_image_basic_widget.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_dashboard_item_theme.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_widget_toggle.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_import_dashboard.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_domain_fix.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_quick_edit_view.js"/>
+            <script type="text/javascript" src="/eagle_dashboard/static/src/js/eagle_dashboard_kpi_preview.js"/>
+            <!--            for some reason gridstack css is not laoding from the js. #FIXME-->
+            <link rel="stylesheet" href="/eagle_dashboard/static/lib/css/gridstack.min.css"/>
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_pro.css"/>
+            <link rel="stylesheet" href="/eagle_dashboard/static/src/css/eagle_dashboard_gridstack.css"/>
+            <script type="text/javascript"
+                    src="/eagle_dashboard/static/src/js/eagle_dashboard_graph_preview.js"/>
+            <script type="text/javascript"
+                    src="/eagle_dashboard/static/src/js/eagle_dashboard_list_view_preview.js"/>
+        </xpath>
+    </template>
+</eagle>

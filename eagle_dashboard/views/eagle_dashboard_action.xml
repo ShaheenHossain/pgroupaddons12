@@ -1,0 +1,32 @@
+<eagle>
+    <data>
+
+        <record model="ir.ui.view" id="eagle_dashboard_action">
+            <field name="name">eagle_dashboard_item action</field>
+            <field name="model">eagle_ninja_dashboard.item_action</field>
+            <field name="arch" type="xml">
+                <form string="Dashboard Item Action">
+                    <group>
+                        <group>
+                            <field name="eagle_dashboard_item_ids" invisible='1' required="1"/>
+                            <field name="eagle_dashboard_id"
+                                   attrs="{'invisible':[('eagle_action','=','duplicate')], 'required':[('eagle_action','=','move')]}"
+                                   options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"/>
+                            <field name="eagle_dashboard_ids" widget='many2many_tags'
+                                   attrs="{'invisible':[('eagle_action','=','move')], 'required':[('eagle_action','=','duplicate')]}"
+                                   options="{'no_create': True, 'no_create_edit':True, 'no_open': True}"/>
+                        </group>
+                        <group>
+                            <field name="eagle_action" required="1"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <button string='Save' name="action_item_move_copy_action" type="object" class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</eagle>

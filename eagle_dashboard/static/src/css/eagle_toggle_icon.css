@@ -1,0 +1,106 @@
+.eagle_toggle_icon_input{
+    vertical-align: middle;
+}
+
+.eagle_select_dashboard_item_toggle{
+    display: flex;
+}
+
+.eagle_select_icon_div{
+    margin-right : 45px;
+}
+
+
+/*New Quick Edit View*/
+.eagle_dashboard_item_button_container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eagle_dashboard_quick_edit_action > button{
+    position: absolute;
+    right: -30px;
+    visibility: hidden;
+}
+
+.eagle_dashboard_quick_edit_action{
+    z-index: 99;
+}
+
+
+/*UI CHANGES*/
+
+.eagle_qe_footer_span{
+    display: block;
+    width: 18px;
+    height: 18px;
+    -webkit-transform: rotate(-135deg) translateZ(0);
+    transform: rotate(-135deg) translateZ(0);
+    outline: 1px solid transparent;
+    background-color: white;
+    border-top: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    position: absolute;
+    left: -9px;
+    top: 22px;
+}
+
+
+.eagle_qe_dropdown_menu{
+   max-width: 280px;
+   box-shadow: 3px 7px 12px 1px rgba(0, 0, 0, 0.32);
+}
+
+.eagle_item_field_info{
+    /*width: 230px;*/
+    max-height: 225px;
+    overflow-y: scroll;
+}
+
+.eagle_quick_edit_footer{
+padding-top: 1rem !important;
+padding-bottom: 0.7rem !important;
+border-top: 1px solid #dcdada;
+    display: flex;
+    justify-content: center;
+}
+
+.eagle_qe_form_view{
+    padding-bottom: 0px !important;
+        padding-top: 0px !important;
+}
+
+.eagle_qe_form_view > .eagle_qe_form_view_group{
+    margin-bottom: 0 !important;
+}
+
+
+
+/* width */
+.eagle_item_field_info::-webkit-scrollbar,
+.eagle_dashboard_custom_srollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.eagle_item_field_info::-webkit-scrollbar-track,
+.eagle_dashboard_custom_srollbar::-webkit-scrollbar-track,
+ {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.eagle_item_field_info::-webkit-scrollbar-thumb,
+.eagle_dashboard_custom_srollbar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.eagle_item_field_info::-webkit-scrollbar-thumb:hover,
+.eagle_dashboard_custom_srollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.eagle_quick_edit_footer > .eagle_discard {
+        border-color: #dee2e6;
+}

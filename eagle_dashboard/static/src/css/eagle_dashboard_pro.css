@@ -1,0 +1,210 @@
+.eagle_dashboard_item {
+    height: 132px;
+}
+
+/* Form pie chart no data */
+.eagle_dn_graph_preview > .nv-noData > .eagle_pie_chart_nocontent{
+    padding: 100px 0 0 137px;
+    min-height: 327px;
+    font-size: 125%;
+}
+
+.eagle_group_width {
+    width : 40% !important;
+}
+
+
+/* Chart No Content Css */
+.eagle_chart_nocontent_form {
+    display: inherit !important;
+}
+
+.eagle_pie_chart_nocontent > .nv-noData {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 125%;
+}
+
+.eagle_pie_chart_nocontent > .ksChartTitle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.eagle_dashboarditem_id, .eagle_dashboarditem_chart_container{
+    overflow-x : visible !important;
+    overflow-y : visible !important;
+}
+
+.eagle_dashboard_kpi{
+    overflow-y : auto !important;
+}
+
+.eagle_dashboarditem_chart_container{
+    background : white;
+}
+
+/* Layout 6 exception case CSS */
+.eagle_dashboard_item_header_l6{
+    top: 5px !important;
+    right: 10px;
+}
+
+
+.eagle_chart_card_body{
+    position: absolute;
+    top: 50px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+}
+
+
+/*---------------------------------------------------*/
+table#ksListViewTable {
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  /*font-weight: 100;*/
+  /*background: #333;*/ /*color: #fff;*/
+  text-rendering: optimizeLegibility;
+  border-radius: 5px;
+  width: -webkit-fill-available;
+}
+
+
+#eagle_item_info {
+    cursor:pointer;
+}
+
+.eagle_chart_heading{
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.eagle_dashboard_item_hover:hover .eagle_dashboard_item_header_hover > .eagle_chart_inner_buttons{
+    visibility: visible;
+}
+
+ .eagle_chart_inner_buttons{
+    visibility: hidden;
+
+}
+
+.eagle_chart_color_options, .eagle_item_size_options{
+        display: block;
+    padding: 3px 10px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    cursor: pointer;
+        margin-left: 24px;
+    text-transform: capitalize;
+}
+
+.eagle_chart_color_options:hover, .eagle_item_size_options:hover{
+        color: #333333;
+    background-color: #f5f5f5;
+}
+
+.eagle_pro_print_hide{
+    display:none !important;
+}
+
+.eagle_dashboard_item_menu_show > .eagle_chart_inner_buttons{
+    visibility: visible !important;
+}
+
+.ksMaxTableContent{
+    max-height: 300px;
+}
+
+
+.eagle_list_view_container{
+    background : white;
+}
+
+.eagle_chart_export_menu{
+    padding: 6px 0 6px 0;
+}
+
+.eagle_chart_export_menu_header{
+    font-weight: 600;
+    padding: 0 14px 10px 14px;
+}
+
+.eagle_chart_export_menu_item{
+    padding: 5px 10px 5px 10px;
+    cursor : pointer;
+}
+
+.eagle_chart_image_export{
+    line-height: 29.5px;
+    padding-top: 7.5px;
+    padding-bottom: 7px;
+}
+.eagle_chart_export_menu_item{
+    color: #4c4c4c;;
+}
+
+
+.eagle_chart_export_menu_item:hover{
+    color: #4d4c4c;
+    background-color: #f5f5f5;
+}
+
+
+.eagle_chart_export_menu_item > i{
+    padding-right: 10px;
+}
+
+.eagle_overflow {
+    overflow: auto;
+}
+
+.eagle_pager {
+    min-width:98px;
+}
+
+.eagle_next_previous_bg_color{
+    background-color: transparent ! important;
+}
+
+.eagle_list_view_heading{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media(max-width: 767px){
+    .dropdown-max-height {
+     max-height: 240px;
+     overflow:auto;
+    }
+}
+
+@media(max-width: 767px){
+    .eagle_date_input_fields{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 767px){
+    .eagle_date_filter_selection_input{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

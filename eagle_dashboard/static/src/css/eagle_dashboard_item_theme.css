@@ -1,0 +1,75 @@
+.eagle_dashboard_theme_input::before {
+    content: '';
+    position: relative;
+    width: 25px;
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.eagle_color_white::before {
+    background: #ffffff;
+    color:black;
+}
+
+.eagle_color_white {
+    border: 1px solid #bdbdbd
+}
+
+.eagle_color_blue::before {
+    background: #337ab7;
+}
+.eagle_color_red::before{
+    background: #d9534f;
+}
+.eagle_color_yellow::before{
+    background: #f0ad4e;
+}
+.eagle_color_green::before{
+    background: #5cb85c;
+}
+.eagle_dashboard_theme_view_render{
+    display: flex;
+}
+.eagle_dashboard_theme_input:checked:before{
+    content: '✔';
+}
+
+.eagle_dashboard_theme_input_container{
+        margin-right: 20px;
+}
+
+
+
+.eagle_dashboard_top_settings .fa-cog{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.eagle_dashboard_setting_container{
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.eagle_dashboard_setting_container:hover{
+    color: #333333;
+    background-color: #f5f5f5;
+}
+
+
+.eagle_dashboard_toggle_menu::after {
+    display:none !important;
+}
+
+/*
+  Define here the CSS styles applied only to Safari browsers
+  (any version and any device)
+ */
+.eagle_dashboard_theme_input{
+    -webkit-appearance: none;
+}
+
+/*Kpi CSS here*/
+.eagle_kpi_target_grey {
+    color: #777777;
+}
